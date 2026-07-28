@@ -1,0 +1,10 @@
+torch>=1.9
+torchvision
+numpy
+xarray
+scikit-learn
+scikit-image
+matplotlib
+pandas
+netCDF4
+h5py
