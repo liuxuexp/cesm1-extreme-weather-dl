@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large data files (not tracked)
+*.nc
+!data/land_sea_mask/*.nc
+*.pkl
+*.pdparams
+*.ckpt
+
+# Training results (generated, ~1.6 TB)
+results/
+
+# Output figures (generated)
+fig_*.png
+fig_*.pdf
+
+# Generated reports
+report.pdf
+report.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.log
